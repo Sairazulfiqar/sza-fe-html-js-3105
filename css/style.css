@@ -1,0 +1,35 @@
+:root {
+    --lightblue: lightblue;
+    --white: white;
+    --darkblue: blue;
+    --black: black;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+.btn {
+    display: flex;
+    margin: 1%;
+    border-radius: 20px;
+    height: 25px;
+    width: 80px;
+    background-color: aliceblue;
+}
+
+.light-theme {
+    /* background-color: aliceblue;
+    color: black; */
+    --bg: var(--lightblue);
+    --fontColor: var(--white);
+}
+
+.dark-theme {
+    /* background-color: black;
+    color: aliceblue; */
+    --bg: var(--darkblue);
+    --fontColor: var(--black);
+}
